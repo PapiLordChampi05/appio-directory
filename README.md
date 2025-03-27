@@ -1,2 +1,2 @@
 # appio-directory
-A directory/library/gallery of Appios.
+A website containing a list of Appios.
