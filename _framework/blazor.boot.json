@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "app.io.Browser",
   "resources": {
-    "hash": "sha256-CG6GVR70XxoOFDm/kvPy+HsGxMgMklo7JKzxdhwObug=",
+    "hash": "sha256-5Xit9S4WBwphcbVCCNdLeU34fe8YcoVfLuXNqU9crX0=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-uIbjht0pzyL1NUPJhMZ16HC7yb5uRi6jMM9gsNp4QaM="
     },
@@ -18,7 +18,7 @@
     },
     "coreAssembly": {},
     "assembly": {
-      "app.io.Browser.wasm": "sha256-ct/xEyZGf8rtS4i6+ZEdfVvvQtL4KWgSEasBg8KNo6M=",
+      "app.io.Browser.wasm": "sha256-i3MXGJ8JTQLagKSbq2KEzg06/hrQkqjFdQgQaDW4CFQ=",
       "app.io.wasm": "sha256-WN3Orpp3hg9vQTTjS2gyvYhDqgbOVOPnWfFWVy79IXA=",
       "Avalonia.Base.wasm": "sha256-dRO1Km2zBHiCGCbjX+ByBsCDFKABA94m5Y61jl/p9kY=",
       "Avalonia.Browser.wasm": "sha256-GAGF420rqmk2CF7sLLvs5GpBXDexVmSMEB4qw5WY7E4=",
