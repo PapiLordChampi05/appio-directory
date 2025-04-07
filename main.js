@@ -10,4 +10,16 @@ const dotnetRuntime = await dotnet
 
 const config = dotnetRuntime.getConfig();
 
+globalThis.saveFileToIndexedDB = async function (filename, content) {
+    localStorage.setItem(filename, content);
+};
+
+globalThis.loadFileFromIndexedDB = async function (filename) {
+    return localStorage.getItem(filename);
+};
+
+globalThis.isFileSystemAccessSupported = async function () {
+    return 'showOpenFilePicker' in window && 'showSaveFilePicker' in window && 'showDirectoryPicker' in window;
+};
+
 await dotnetRuntime.runMain(config.mainAssemblyName, [globalThis.location.href]);
