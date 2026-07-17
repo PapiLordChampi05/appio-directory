@@ -15,7 +15,7 @@ globalThis.saveFileToIndexedDB = async function (filename, content) {
 };
 
 globalThis.loadFileFromIndexedDB = async function (filename) {
-    return localStorage.getItem(filename);
+    return localStorage.getItem(filename) ?? "";
 };
 
 globalThis.isFileSystemAccessSupported = async function () {
